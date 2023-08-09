@@ -1,0 +1,102 @@
+.quiz-container {
+    text-align: center;
+    padding: 50px;
+  }
+  /* Quizz.css */
+
+/* Set a background color for the whole quiz */
+.quiz-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5; /* Example background color */
+  }
+  
+  /* ... rest of the styles ... */
+/* Quizz.css */
+
+/* ... previous styles ... */
+
+.option-button {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .option-button:hover {
+    background-color: #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  /* ... rest of the styles ... */
+    
+  
+  .quiz-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .result-container {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .question-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .option-button {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .option-button:hover {
+    background-color: #ddd;
+  }
+  
+  .option-button.selected {
+    background-color: purple;
+    color: white;
+  }
+  
+  .next-button-container {
+    text-align: center;
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
